@@ -1,0 +1,25 @@
+.tituloPrincipal{
+    font-size: 60px;
+}
+
+.lateral{
+    width: 10%;
+    display: inline-block;
+    font-size: 20px;
+    padding: 2vw;
+    
+}
+
+.principalContainer{
+    width: 50%;
+    display: inline-block;
+    padding: 2vw;
+    
+   
+  
+
+
+}
+
+
+
