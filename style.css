@@ -1,9 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 20px;
   }
 
   #sidebar {
-    width: 200px;
+    width: 240px;
     height: 100vh;
     position: fixed;
     left: 0;
@@ -12,6 +13,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
   }
+
 
   #content {
     margin-left: 220px;
