@@ -4,7 +4,7 @@ body {
 }
 
 #sidebar {
-  width: 240px;
+  width: 220px;
   height: 100vh;
   position: fixed;
   left: 0;
@@ -36,12 +36,13 @@ body {
 
 #sidebar ul li a {
   text-decoration: none;
-  color: #333;
+  color: #0751c0;
 }
 
 .lateralInfo{
   font-size: 16px;
   margin-top: 1px;
+
 }
 
 .topicos{
