@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #sidebar {
@@ -20,8 +20,8 @@ body {
   padding: 20px;
 }
 
-#sidebar h2 {
-  margin-top: 0;
+#sidebar h5 {
+  margin-bottom: 10px;
 }
 
 #sidebar ul {
@@ -37,4 +37,14 @@ body {
 #sidebar ul li a {
   text-decoration: none;
   color: #333;
+}
+
+.lateralInfo{
+  font-size: 16px;
+  margin-top: 1px;
+}
+
+.topicos{
+  font-size: 25px;
+  margin-top: 60px;
 }
