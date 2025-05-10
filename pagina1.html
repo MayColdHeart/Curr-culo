@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/lateralBar.css">
+    <link rel="stylesheet" href="/curriculo/resources/style.css">
+    <script src="/curriculo/resources/index.js"></script>
   <title>Meu Currículo</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
 
       <p>
         <h5>Dados pessoais</h5>
-        <li><a class="lateralInfo">Idade: 20 anos</a></li>
+        <li class="lateralInfo">Idade: 20 anos</li>
         <li><a class="lateralInfo" href="tel:+556199999999" target="_blank">Tel: +55(61)9000-9292</a></li>
         <li><a class="lateralInfo" href="mailto:devmayy@gmail.com" target="_blank">devmayy@gmail.com</a></li>
         <li><a class="lateralInfo" href="https://maps.app.goo.gl/YntrqPxejGzENsch8" target="_blank">Brasília - DF</a></li>
@@ -110,6 +110,45 @@
       <li>Criatividade</li>
       <li>Trabalho em Equipe</li>
     </ul>
+     <hr>
   </div>
+ 
+    <main class="curriculo">
+        <section id="contato" class="bloco-principal">
+            <h2 class="titulo-principal">formulario</h2>
+            <div class="sub-bloco">
+
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLSdidbWo6QKqDzLv7XpwsXd_-8VnQVZHtO3ir8fo2BrXRx8vZw/formResponse" method="POST" target="_blank" class="form-contato">
+
+                    <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="entry.626071832" id="nome" required>
+                    </p>
+
+
+                    <p>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="entry.1187443272" id="email" required>
+                    </p>
+
+                    <p>
+                    <label for="nome">Assunto:</label>
+                    <input type="text" name="entry.799589652" id="assunto" required>
+                    </p>
+
+                    <label for="mensagem">Mensagem:</label>
+
+                    <p>
+                    <textarea name="entry.576667728" id="mensagem" name="mensagem" rows="20" cols="30"></textarea>
+                    </p>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
 </body>
 </html>
